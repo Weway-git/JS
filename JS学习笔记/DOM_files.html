@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            color:yellow;
+            font-family: "arial",sans-serif;
+            font-size: 1.2em;
+        }
+        body{
+            color: white;
+            background: maroon;
+        }
+        a{
+            color: white;
+            background: darkmagenta;
+        }
+        a.special{
+            font-size: 24px;
+        }
+        #cc{
+            font-family: 华文彩云;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+<p title="tihaha" id="cc" class="special" class="special1">
+    <li>hahahah</li>
+    haha
+    哈哈
+</p>
+<a class="special1" class="special" href="haha">hahaaa</a>
+
+<script>
+    // let paras = document.getElementsByTagName("p")
+    // for (i=0;i<paras.length;i++)
+    // {
+    //     let title_text=paras[i].getAttribute("title")
+    //     if(title_text)
+    //     alert(title_text)
+    //     console.log(paras[i])
+    // }
+    let shopping =document.getElementById('cc')
+    shopping.setAttribute('houhou','chigepi')
+    alert(shopping.getAttribute('houhou'))
+
+</script>
+
+<!--<script>-->
+<!--//     let items=document.getElementsByTagName("*")-->
+<!--//     let items2=document.getElementById('cc')-->
+<!--//     for(i=0;i<items.length;i++){-->
+<!--//     alert(typeof items[i])-->
+<!--//         console.log(items)-->
+<!--//         console.log(items2)-->
+<!--// }-->
+<!--// alert(document.getElementsByClassName("special special1").length)-->
+    <!---->
+<!--</script>-->
+</body>
+</html>
